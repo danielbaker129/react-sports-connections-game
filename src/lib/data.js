@@ -1,31 +1,58 @@
 export const CONNECTION_GAMES = [
   [
     {
-      category: "Athletes wit #10 Jersey",
-      words: ["Lionel Messi",	"Ben Simmons",	"Chipper Jones",	"Eli Manning"],
+      category: "Lob City Clippers",
+      words: ["Blake Griffin",	"Chris Paul",	"DeAndre Jordan",	"JJ Redick"],
       difficulty: 1,
       // imageSrc: "https://i.ibb.co/Gn36Ypb/Connections-1.png",
     },
     {
-      category: "Athletes That Competed on Survivor",
-      words: ["Jeff Kent", "Brad Culpepper", "Cliff Robinson", "Scot Pollard"],
+      category: "Athletes with #0 Jersey",
+      words: ["D'Andre Swift",	"Jayson Tatum",	"Marcus Stroman",	"Russell Westbrook"],
       difficulty: 2,
       // imageSrc: "https://i.ibb.co/3B44zXX/Connections-2.png",
     },    																		
     {
-      category: "Only Played For One Team In Career",
-      words: ["Dirk Nowitzki", "Kobe Bryant", "Derek Jeter", "Udonis Haslem"],
+      category: "Athletes With Cheating Scandals",
+      words: ["Lance Armstrong", "Barry Bonds",	"Jon Jones",	"Diego Maradona"],
       difficulty: 3,
       // imageSrc: "https://i.ibb.co/4MwD7zv/Connections-3.png",
     },
     {
-      category: "Dual-Sport Professional Athletes",
-      words: ["Bo Jackson", "Deion Sanders", "Ellyse Perry", "Clara Hughes"],
+      category: "Sports Legends Who Inspired Rule Changes",
+      words: ["Wilt Chamberlain",	"Kareem Abdul-Jabbar",	"Shaquille O'Neal",	"Tom Dempsey"],
       difficulty: 4,
       // imageSrc:
         // "https://i.ibb.co/V2vnr5P/boys2men-2-d53afdddf480401fac1204a3954aa5f6.webp",
     },
-  ]
+  // ]
+  // [
+  //   {
+  //     category: "Athletes with #10 Jersey",
+  //     words: ["Lionel Messi",	"Ben Simmons",	"Chipper Jones",	"Eli Manning"],
+  //     difficulty: 1,
+  //     // imageSrc: "https://i.ibb.co/Gn36Ypb/Connections-1.png",
+  //   },
+  //   {
+  //     category: "Athletes That Competed on Survivor",
+  //     words: ["Jeff Kent", "Brad Culpepper", "Cliff Robinson", "Scot Pollard"],
+  //     difficulty: 2,
+  //     // imageSrc: "https://i.ibb.co/3B44zXX/Connections-2.png",
+  //   },    																		
+  //   {
+  //     category: "Only Played For One Team In Career",
+  //     words: ["Dirk Nowitzki", "Kobe Bryant", "Derek Jeter", "Udonis Haslem"],
+  //     difficulty: 3,
+  //     // imageSrc: "https://i.ibb.co/4MwD7zv/Connections-3.png",
+  //   },
+  //   {
+  //     category: "Dual-Sport Professional Athletes",
+  //     words: ["Bo Jackson", "Deion Sanders", "Ellyse Perry", "Clara Hughes"],
+  //     difficulty: 4,
+  //     // imageSrc:
+  //       // "https://i.ibb.co/V2vnr5P/boys2men-2-d53afdddf480401fac1204a3954aa5f6.webp",
+  //   },
+  // ]
   // [
   //   {
   //     category: "NBA Slam Dunk Contest Winners",
@@ -52,5 +79,5 @@ export const CONNECTION_GAMES = [
   //     // imageSrc:
   //       // "https://i.ibb.co/V2vnr5P/boys2men-2-d53afdddf480401fac1204a3954aa5f6.webp",
   //   },
-  // ]
+  ]
 ];
