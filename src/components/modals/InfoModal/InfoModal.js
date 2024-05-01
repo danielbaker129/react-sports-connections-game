@@ -37,6 +37,14 @@ function InfoModal() {
               <AccordionContent>
                 Select the items and tap 'Submit' to check if your guess matches
                 one of the answer categories.
+                <br></br><br></br>                
+                Yellow = Easiest Category
+                <br></br>                
+                Green = Medium Category
+                <br></br>                
+                Blue = Hard Category    
+                <br></br>                
+                Purple = Extreme Category
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
