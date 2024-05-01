@@ -106,6 +106,7 @@ function GameGrid({ gameRows, shouldGridShake, setShouldGridShake }) {
   return (
     <div>
       {(isGameOverAndWon || isGameActiveWithAnySolvedRows) && (
+        // <div className="grid gap-y-2 pb-2">
         <div className="grid gap-y-2 pb-2">
           {solvedGameData.map((solvedRowObj) => (
             <SolvedWordRow key={solvedRowObj.category} {...solvedRowObj} />
@@ -114,6 +115,7 @@ function GameGrid({ gameRows, shouldGridShake, setShouldGridShake }) {
       )}
       {isGameActive && (
         <div className={`grid gap-y-2 ${shouldGridShake ? styles.shake : ""}`}>
+        {/* <div className={`grid gap-y-2 ${shouldGridShake ? styles.shake : ""} h-96`}> */}
           {gameRows.map((row, idx) => (
             <WordRow key={idx} words={row} />
           ))}

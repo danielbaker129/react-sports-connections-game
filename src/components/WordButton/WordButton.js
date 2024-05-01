@@ -40,7 +40,8 @@ function WordButton({ word, fullCandidateSize }) {
   //const fontSizeByWordLength = 9characters works with 0.6rem
 
   function getFontSize(word) {
-    const baseLength = 7;
+    // const baseLength = 7;
+    const baseLength = 20;
     const wordLength = word.length;
     let fontSize = 1;
     if (wordLength > baseLength) {
@@ -59,6 +60,7 @@ function WordButton({ word, fullCandidateSize }) {
       variant="outline"
       pressed={isSelected}
       onClick={flipSelection}
+      style={{height: '50px'}}
     >
       <p
         style={{ fontSize: getFontSize(word) }}
